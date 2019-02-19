@@ -2,5 +2,5 @@
 
 why python
 
-Life is long and hard, so python with less code is better than more.
+Life is short and hard, so python with less code is better than more.
 
