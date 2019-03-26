@@ -1,11 +1,4 @@
-# python_learn
-
-why python
-
-Life is short and hard, so python with less code is better than more.
-
-Hello world
+python_cheat_sheat
+Life is short and hard, simple is better than complex.
 
 print('Hello world')
-first helloworld program.
-
