@@ -1,4 +1,4 @@
-python_cheat_sheat
+python learn and practice
 
 Life is short and hard, simple is better than complex.
 
