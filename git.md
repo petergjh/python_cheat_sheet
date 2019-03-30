@@ -40,6 +40,8 @@ git remote add origin git@gitee.com:petergao/pythonic
 
 git remote add mirror git@github.com:petergjh/pythonic
 
+git remote rm origin
+
 git push origin master
 
 git push origin dev
