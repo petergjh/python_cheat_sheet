@@ -1,5 +1,5 @@
-python learn and practice
+#python learn and practice
 
-Life is short and hard, simple is better than complex.
+##Life is short and hard, simple is better than complex.
 
 print('Hello world')
