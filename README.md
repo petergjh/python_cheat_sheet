@@ -8,5 +8,5 @@
 ## git markdown
 [github](http://www.github.com/petergao/pythonic)
 *1:insert picture
-![MarkDown](http://gitee.com/petergao/pythonic/12345.png?raw=true)
+![MarkDown](https://gitee.com/PeterGao/pythonic/raw/master/markdown.png?raw=true)
 
