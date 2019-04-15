@@ -11,7 +11,7 @@ python --version
 pip --version
 git --version
 ```
-![.](https://gitee.com/PeterGao/pythonic/blob/master/markdown.png)
+![.](https://gitee.com/PeterGao/pythonic/raw/master/python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/django/%E9%85%8D%E7%BD%AEdjango%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/%E7%8E%AF%E5%A2%83%E6%A3%80%E6%9F%A5.JPG)
 # 建立虚拟环境
 * python3自带了venv,使用这个模块来创建一个虚拟环境来独立运行一个python项目
 python -m venv 
