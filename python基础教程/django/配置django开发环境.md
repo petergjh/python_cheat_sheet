@@ -1,18 +1,17 @@
-系统环境: win7*64 
-开发语言: python3.7
-web框架: django2.2 
-版本控制: git
-IDE: idea+python插件
+系统环境: win7*64  
+开发语言: python3.7   
+web框架: django2.2   
+版本控制: git  
+IDE: idea+python插件   
 
 # 环境检查: 
 打开一个windows命令窗口cmd
-**
+```
 python --version
 pip --version
 git --version
-**
-![](https://gitee.com/PeterGao/pythonic/blob/master/markdown.png)
-
+```
+![.](https://gitee.com/PeterGao/pythonic/blob/master/markdown.png)
 # 建立虚拟环境
 * python3自带了venv,使用这个模块来创建一个虚拟环境来独立运行一个python项目
 python -m venv 
