@@ -243,10 +243,10 @@ git push origin :refs/tags/v0.9
 
 git config --global color.ui true
 
-### git_cheat_sheet
-![git_cheat_sheet]()
+### git cheat sheet
+![git cheat sheet](https://gitee.com/PeterGao/pythonic/raw/master/python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/git/gitcheatsheet.JPG)
 
-### 团队代码版本控制最佳实践
-![team version control]()
+### 版本控制最佳实践
+![a-succesfu-git-branching-model](https://gitee.com/PeterGao/pythonic/raw/master/python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/git/succesful-git-branching-model.JPG)
 
 
