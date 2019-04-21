@@ -1,5 +1,4 @@
 Git is a version control system. 
-![git](https://gitee.com/PeterGao/pythonic/raw/master/python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/git/git.png)
 
 ### 创建版本库 
 ```
@@ -80,6 +79,62 @@ git reflog
 ```
 git reset
 ```
+### 工作区（Workspace Directory）, 版本库（Repository）, 暂存区(Index或stage), 分支(branch)
+
+![git](https://gitee.com/PeterGao/pythonic/raw/master/python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/git/git.png)
+
+工作目录即工作区,比如前面新建的目录 testgit
+工作区有一个隐藏目录 .git，这个不算工作区，而是Git的版本库
+版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD
+我们把文件往Git版本库里添加的时候，是分两步执行的：
+第一步是用git add把文件添加进去，实际上就是把文件修改添加到暂存区；
+第二步是用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
+因为我们创建Git版本库时，Git自动为我们创建了唯一一个master分支，所以，现在，git commit就是往master分支上提交更改。
+你可以简单理解为，需要提交的文件修改通通放到暂存区，然后，一次性提交暂存区的所有修改。
+提交后，如果你又没有对工作区做任何修改，那么工作区就是“干净”的：
+下面对readme.md做如下修改,
+```
+git is a version control software.
+git is free.
+git is powerful.
+```
+修改后再看下git的状态,
+```
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+提示有过改动modified, 并且尚未添加到暂存区(not staged).
+
+我们把修改后的文件用git add 来添加到暂存区(stage/index):
+```
+$ git add readme.md
+
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   readme.md
+```
+
+git add命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行git commit就可以一次性把暂存区的所有修改提交到分支。
+```
+$ git commit -m 'stage/index work'
+[master 3353a38] stage/index work
+ 1 file changed, 2 insertions(+)
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+```
+提交后，如果你又没有对工作区做任何修改，那么工作区就是“干净”的：working tree clean, 并且暂存区也是空的了nothing to commit.
 
 git clone git@gitee.com:petergao/demo.git
 
@@ -187,4 +242,11 @@ git push origin --tags
 git push origin :refs/tags/v0.9
 
 git config --global color.ui true
+
+### git_cheat_sheet
+![git_cheat_sheet]()
+
+### 团队代码版本控制最佳实践
+![team version control]()
+
 
