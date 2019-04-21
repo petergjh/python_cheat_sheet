@@ -249,4 +249,36 @@ git config --global color.ui true
 ### 版本控制最佳实践
 ![a-succesfu-git-branching-model](https://gitee.com/PeterGao/pythonic/raw/master/python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/git/succesful-git-branching-model.JPG)
 
+### ignore文件
+不希望把本地不属于项目本身的一些附属文件同步到仓库上,就在库存里添加一个 .gitignore文件,在提交同步时就会忽略ignore文件里指定的类似文件.
+
+文件名是 .gitignore
+```
+#git push ignore
+
+
+#markDown
+*.md.un~
+
+#Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+#IntelliJ IDEA Files
+*.iml
+*.ipr
+*.iws
+*.idea
+```
+请参考同目录的一个范例ignore模版
+
 
