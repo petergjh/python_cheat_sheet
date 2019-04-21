@@ -1,4 +1,5 @@
 Git is a version control system. 
+![git](https://gitee.com/PeterGao/pythonic/raw/master/python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/git/git.png)
 
 git clone git@gitee.com:petergao/demo.git
 
