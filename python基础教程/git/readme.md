@@ -196,6 +196,70 @@ git pull -u origin master
 
 git pull -u mirror mastedr
 
+push和pull时冲突出错
+```
+$ git push mirror master
+To github.com:petergjh/odoogeek
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:petergjh/odoogeek'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+```
+
+在pull的时候发现又报错了，提示Git Pull Failed: refusing to merge unrelated histories
+```
+$ git pull mirror master
+warning: no common commits
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From github.com:petergjh/odoogeek
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> mirror/master
+fatal: refusing to merge unrelated histories
+```
+意思是git无法将两个不相关的内容融合，就是git认为本地的项目和远程的项目不是同一个。
+解决如何将两个内容融合的问题，查阅资料后得知使用git pull origin master --allow-unrelated-histories命令就可以解决
+```
+$ git pull mirror master --allow-unrelated-histories
+From github.com:petergjh/odoogeek
+ * branch            master     -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ git add .
+
+$ git commit -m 'add github mirror'
+[master 820f7e7] add github mirror
+
+$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 12.91 KiB | 3.23 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Powered By Gitee.com
+To gitee.com:petergao/odoogeek
+   730da64..820f7e7  master -> master
+
+$ git push mirror master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 2.90 KiB | 990.00 KiB/s, done.
+Total 10 (delta 2), reused 3 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:petergjh/odoogeek
+   ccca0b8..820f7e7  master -> master
+
+```
+
 git branch
 
 git branch dev
