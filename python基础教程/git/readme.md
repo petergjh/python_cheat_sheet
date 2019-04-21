@@ -224,7 +224,7 @@ From github.com:petergjh/odoogeek
 fatal: refusing to merge unrelated histories
 ```
 意思是git无法将两个不相关的内容融合，就是git认为本地的项目和远程的项目不是同一个。
-解决如何将两个内容融合的问题，查阅资料后得知使用git pull origin master --allow-unrelated-histories命令就可以解决
+解决如何将两个内容融合的问题，使用git pull origin master --allow-unrelated-histories命令就可以解决
 ```
 $ git pull mirror master --allow-unrelated-histories
 From github.com:petergjh/odoogeek
