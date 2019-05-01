@@ -24,7 +24,7 @@
 
 开放雾联盟在下面直观地显示了网络边缘处生成数据的“物件”、核心处的云数据中心以及介于两者之间的雾基础设施三者之间的关系：
 
-![fog architecture](https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogArch.jpeg "fog architect" )
+![fog architecture](https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogArch.jpeg "fog architect" )  
 图片来源：开放雾联盟
 
 ## 市场估计
@@ -52,12 +52,12 @@ Grand View Research的观点较为保守，估计到2025年边缘计算市场的
 
 据451 Research声称，就市场份额而言，2022年雾计算领先的垂直细分领域将是公用事业、交通运输、医疗保健、工业和农业。
 
-
+![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogOpportunity.jpeg" ")  
 图片来源：451 Research和开放雾联盟
 
 说到2022年的雾计算生态系统，451 Research分成了这几大部分：
 
-
+![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogComponent.jpeg" ")  
 数据来源：451 Research和开放雾联盟
 
 硬件这部分遥遥领先，在2022年饼形图中占有42.1%的份额，其次是雾应用/平台（21.5%）和雾服务（20.4%）。难怪硬件供应商和云应用/服务提供商在竞相涌入迅速发展的边缘/雾市场。
@@ -66,12 +66,12 @@ Grand View Research的观点较为保守，估计到2025年边缘计算市场的
 
 虽然PC、笔记本电脑、平板电脑以及手机在2017年至2023年期间增长平缓，但物联网设备增长迅猛：拥有广域连接的设备其CAGR将达到30%，短距离物联网设备的增长势头要弱一些（CAGR为17%）。这导致2017年（175亿个）至2023年（314亿个）的联网设备数量增长近80%（79.4%）：
 
-
+![ ]( " ")  
 数据来源：爱立信《移动报告》2018年6月
 
 至于5G，爱立信预计2018年下半年会出现首批纯数据设备，2019年出现首批5G智能手机。继第三代芯片组在2020年问世后，到2023年，该公司预计全球会有10亿部联网的5G设备。
 
-
+![ ]( " ")  
 图片来源：爱立信《移动报告》2018年6月
 
 爱立信表示，预计2020年会出现首批基于模块的5G物联网设备，支持面向工业过程监控的超低延迟通信。
@@ -98,26 +98,26 @@ Futurum Research在2017年底调查了500多家北美公司（员工数量从500
 
 Futurum声称，近四分之三（72.7%）的公司已经实施了边缘计算战略，或正在实施这一战略。此外，几乎所有（93.3%）的公司打算在今后12个月内投入于边缘计算：
 
-
+ 
 数据来源：Futurum Research
 
 Futurum还编制了一份通用的数字化转型指数，该指数在2018年将68%的公司列入“领导者”和“采用者”这两个类别。因此，72.7%的调查对象已经投入于边缘计算，这表明边缘计算对于精通技术的企业来说是个热门话题。然而Futurum也特别指出，“93.3%的企业在今后12个月内投入于边缘计算的热情说明不了它们的投入规模。”
 
 被问及边缘计算数据流在业务流程中的重要性时，Futurum的调查对象继续给出了积极的看法，71.8%的调查对象称这种数据流“至关重要”（22.2%）或“非常重要”（49.6%）：
 
-
+![ ]( " ")  
 数据来源：Futurum Research
 
 哪些关键因素促使企业对边缘计算有这么高涨的热情？对于Futurum的调查对象来说，最主要的因素是“提升应用性能”，其次是“实时分析/数据流”：
 
-
+![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/whyEdgeImportant.jpeg" ")  
 数据来源：Futurum Research
 
 这家调研公司解释，这些优先事项体现了企业需要提升运营效率，表明物联网战略比较低的排名在“未来几年可能会上升”，物联网战略常常被认为是边缘计算的一种典型的使用场景。
 
 这家研究公司表示，只有15.6%的调查对象旨在将边缘计算和云计算分开来，这个决定常常有赖于数据和系统安全方面的问题以及注重划分开来的运营。因而，近64%（63.9%）的调查对象已经部署（28.3%）或正在物色（35.6%）综合的边缘/数据中心分析解决方案，另外20.5%的调查对象不确定将这些功能组合起来还是分开来：
 
-
+![ ]( " ")  
 数据来源：Futurum Research
 
 回答“不确定”和“正在物色”的占调查样本总数的56.1%，这显然表明边缘计算提供商大有机会。
@@ -137,7 +137,7 @@ AWS Greengrass在亚马逊的2016年re：Invent开发者大会上推出，立足
 
 亚马逊称：“借助AWS Greengrass，开发人员可以径直从AWS管理控制台，将AWS Lambda函数添加到联网设备，而设备在本地执行代码，以便设备可以响应事件，并近乎实时地执行操作。AWS Greengrass还包括AWS物联网消息传递和同步功能，因此设备可以在不连回到云的情况下向其他设备发送消息。AWS Greengrass让客户可以灵活地让设备在必要时依赖云，在必要时自行执行任务，并在必要时相互联系，这一切都在一个无缝的环境中进行。”
 
-
+![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/AWSgreengrass.jpeg" ")  
 图片来源：AWS
 
 当然，这些是“智能”边缘设备：Greengrass需要至少1GHz的计算芯片（Arm或x86）、128MB内存，还有操作系统、消息吞吐量和AWS Lambda执行所需的额外资源。据亚马逊声称：“Greengrass Core可以在从Raspberry Pi到服务器级设备的多种设备上运行。”
@@ -149,7 +149,7 @@ Azure IoT Edge包含三个部分：IoT Edge模块、IoT Edge运行时环境和Io
 
 下图显示了Azure IoT Edge的不同部分如何组合在一起：
 
-
+![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/AzureIoTedge.jpeg" ")  
 图片来源：微软
 
 推出正式版后，微软为Azure IoT Edge添加了新功能，包括支持开源、设备配置、安全和管理服务以及简化的开发者体验。
@@ -162,7 +162,7 @@ Azure IoT Edge包含三个部分：IoT Edge模块、IoT Edge运行时环境和Io
 
 Cloud IoT Edge有三个主要组件：便于网关级设备（至少有一个CPU）存储、转换和处理边缘数据，并从中提取信息的运行时环境，同时与谷歌云IoT平台的其余组件协同操作； Edge IoT Core运行时环境，可将边缘设备安全地连接到云；以及 Edge ML运行时环境，它基于TensorFlow Lite，使用预先训练的模型执行机器学习推理。
 
-
+![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/gooleEdge.jpeg" ")  
 图片来源：谷歌
 
 撰写本文时（2018年9月），Edge TPU和Cloud IoT Edge都处于alpha测试阶段。
