@@ -52,12 +52,12 @@ Grand View Research的观点较为保守，估计到2025年边缘计算市场的
 
 据451 Research声称，就市场份额而言，2022年雾计算领先的垂直细分领域将是公用事业、交通运输、医疗保健、工业和农业。
 
-![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogOpportunity.jpeg" ")  
+![. ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogOpportunity.jpeg  )  
 图片来源：451 Research和开放雾联盟
 
 说到2022年的雾计算生态系统，451 Research分成了这几大部分：
 
-![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogComponent.jpeg" ")  
+![ ]( https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogComponent.jpeg )  
 数据来源：451 Research和开放雾联盟
 
 硬件这部分遥遥领先，在2022年饼形图中占有42.1%的份额，其次是雾应用/平台（21.5%）和雾服务（20.4%）。难怪硬件供应商和云应用/服务提供商在竞相涌入迅速发展的边缘/雾市场。
