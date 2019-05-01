@@ -24,7 +24,7 @@
 
 开放雾联盟在下面直观地显示了网络边缘处生成数据的“物件”、核心处的云数据中心以及介于两者之间的雾基础设施三者之间的关系：
 
-
+![fog architecture](https://gitee.com/PeterGao/pythonic/raw/master/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/edgefogcomputing/fogArch.jpeg "fog architect" )
 图片来源：开放雾联盟
 
 ## 市场估计
